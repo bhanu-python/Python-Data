@@ -1,0 +1,8 @@
+#hello = hhheeellllllllooo each charecter showl be thrice
+
+def paper_doll(string):
+    for i in string:
+        print(f'{i*3}',end='')
+        
+
+paper_doll('Hello')

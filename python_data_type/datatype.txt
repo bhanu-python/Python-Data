@@ -1,0 +1,11 @@
+datatype
+int <Integer> --> 10 20 30
+float <floating point> --> 10.02 13.54 17.18
+str <strings> --> "hello" "2000" "!@#$"
+list <lists> --> [10,"hello",10.3]
+dict <dictonaries> --> {"my key":"value", "name":"bhanu"}
+tup <tuples> --> (10,"hello",200.3)
+set <sets> --> {"a","b"}
+bool <boolean> --> logical true and false
+
+pk500084

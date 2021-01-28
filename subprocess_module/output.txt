@@ -1,0 +1,5 @@
+total 3
+-rw-r--r-- 1 Bhanupratap.Mehta 1049089  91 Dec 16 17:32 unix_command_ls.py
+-rw-r--r-- 1 Bhanupratap.Mehta 1049089 213 Dec 16 17:49 unix_command_ls_1.py
+-rw-r--r-- 1 Bhanupratap.Mehta 1049089 111 Dec 18 14:23 output_file.py
+-rw-r--r-- 1 Bhanupratap.Mehta 1049089   0 Dec 18 14:23 output.txt

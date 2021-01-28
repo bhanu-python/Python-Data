@@ -1,0 +1,3 @@
+break -> break current enclosing loop
+continue -> goes to top of the enclosing loop
+pass -> does nothing at all
