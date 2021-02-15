@@ -7,7 +7,7 @@
 
 import re
 
-text="My number is 91-805-000-6621 "
+text="My number is 91-805-000-6621 and My mother number is 91-963-474-5439 "
 op=re.search('\d\d-\d\d\d-\d\d\d-\d\d\d\d',text)
 print(op)
 
@@ -15,3 +15,15 @@ print(op)
 
 op=re.search('\d{2}-\d{3}-\d{3}-\d{4}',text)
 print(op)
+
+#group the multiple match pattern
+
+pat=re.compile(r'(\d{2})-(\d{3})-(\d{3})-(\d{4})')
+op=re.search(pat,text)
+print(op.group())
+
+#if we want by indexing
+
+print(op.group(1))
+
+
